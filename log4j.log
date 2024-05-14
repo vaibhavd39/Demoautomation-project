@@ -1,0 +1,313 @@
+2024-05-13 23:11:27 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:11:27 INFO  Log:91 - Read Property File
+2024-05-13 23:11:27 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:12:12 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:12:19 INFO  Log:38 - Verify browser
+2024-05-13 23:12:19 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:12:40 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:12:40 INFO  Log:91 - Read Property File
+2024-05-13 23:12:40 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:12:44 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:12:53 INFO  Log:38 - Verify browser
+2024-05-13 23:12:53 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:13:04 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:15:30 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:15:30 INFO  Log:91 - Read Property File
+2024-05-13 23:15:30 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:15:33 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:15:42 INFO  Log:38 - Verify browser
+2024-05-13 23:15:42 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:15:52 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:25:57 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:25:57 INFO  Log:91 - Read Property File
+2024-05-13 23:25:57 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:26:02 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:26:05 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:26:05 INFO  Log:38 - Verify browser
+2024-05-13 23:26:05 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:26:10 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:47:52 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:47:52 INFO  Log:91 - Read Property File
+2024-05-13 23:47:53 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:47:56 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:48:00 INFO  Log:38 - Launch Frame Page
+2024-05-13 23:48:00 INFO  Log:38 - Verify browser
+2024-05-13 23:48:00 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:48:00 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-13 23:48:10 ERROR Log:56 - Unbale to Handle Single frame
+2024-05-13 23:48:10 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:49:36 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:49:36 INFO  Log:91 - Read Property File
+2024-05-13 23:49:36 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:49:40 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:49:44 INFO  Log:38 - Launch Frame Page
+2024-05-13 23:49:44 INFO  Log:38 - Verify browser
+2024-05-13 23:49:44 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:49:44 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-13 23:49:54 ERROR Log:56 - Unbale to Handle Single frame
+2024-05-13 23:49:54 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:52:06 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:52:06 INFO  Log:91 - Read Property File
+2024-05-13 23:52:07 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:52:10 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:52:15 INFO  Log:38 - Launch Frame Page
+2024-05-13 23:52:15 INFO  Log:38 - Verify browser
+2024-05-13 23:52:16 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:52:16 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-13 23:52:16 INFO  Log:38 - Verify Frame isDispplay and isEnable
+2024-05-13 23:52:26 ERROR Log:56 - Unbale to Handle Single frame
+2024-05-13 23:52:26 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:54:16 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:54:16 INFO  Log:91 - Read Property File
+2024-05-13 23:54:16 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:54:20 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:54:25 INFO  Log:38 - Launch Frame Page
+2024-05-13 23:54:25 INFO  Log:38 - Verify browser
+2024-05-13 23:54:26 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:54:26 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-13 23:54:26 INFO  Log:38 - Verify Frame isDispplay and isEnable
+2024-05-13 23:54:46 ERROR Log:56 - Unbale to Handle Single frame
+2024-05-13 23:54:46 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:55:23 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:55:23 INFO  Log:91 - Read Property File
+2024-05-13 23:55:23 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:55:27 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:55:30 INFO  Log:38 - Launch Frame Page
+2024-05-13 23:55:30 INFO  Log:38 - Verify browser
+2024-05-13 23:55:30 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:55:30 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-13 23:55:31 INFO  Log:29 - ==========Handle Single Frame Method End==============
+2024-05-13 23:55:31 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:56:00 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:56:00 INFO  Log:91 - Read Property File
+2024-05-13 23:56:01 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:56:04 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:56:07 INFO  Log:38 - Launch Frame Page
+2024-05-13 23:56:07 INFO  Log:38 - Verify browser
+2024-05-13 23:56:08 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:56:08 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-13 23:56:14 ERROR Log:56 - Unbale to Handle Single frame
+2024-05-13 23:57:53 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-13 23:57:53 INFO  Log:91 - Read Property File
+2024-05-13 23:57:53 INFO  Log:135 - Setting up the test with browser
+2024-05-13 23:57:56 INFO  Log:192 - Launch Chrome browser
+2024-05-13 23:57:58 INFO  Log:38 - Launch Frame Page
+2024-05-13 23:57:58 INFO  Log:38 - Verify browser
+2024-05-13 23:58:01 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-13 23:58:01 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-13 23:58:02 INFO  Log:38 - Switch Single Frame Sucessfully
+2024-05-13 23:58:02 INFO  Log:38 - Send input sucessfully
+2024-05-13 23:58:02 INFO  Log:29 - ==========Handle Single Frame Method End==============
+2024-05-13 23:58:02 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:34:55 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 00:34:55 INFO  Log:91 - Read Property File
+2024-05-14 00:34:55 INFO  Log:135 - Setting up the test with browser
+2024-05-14 00:35:00 INFO  Log:192 - Launch Chrome browser
+2024-05-14 00:35:31 INFO  Log:38 - Launch Frame Page
+2024-05-14 00:35:31 INFO  Log:38 - Verify browser
+2024-05-14 00:35:31 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:35:31 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-14 00:35:31 INFO  Log:38 - Switch Single Frame Sucessfully
+2024-05-14 00:35:31 INFO  Log:38 - Send input sucessfully
+2024-05-14 00:35:31 INFO  Log:29 - ==========Handle Single Frame Method End==============
+2024-05-14 00:35:32 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:36:19 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 00:36:19 INFO  Log:91 - Read Property File
+2024-05-14 00:36:20 INFO  Log:135 - Setting up the test with browser
+2024-05-14 00:36:23 INFO  Log:192 - Launch Chrome browser
+2024-05-14 00:36:29 INFO  Log:38 - Launch Frame Page
+2024-05-14 00:36:29 INFO  Log:38 - Verify browser
+2024-05-14 00:36:29 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:36:29 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-14 00:36:29 INFO  Log:38 - Switch Single Frame Sucessfully
+2024-05-14 00:36:29 INFO  Log:38 - Send input sucessfully
+2024-05-14 00:36:29 INFO  Log:29 - ==========Handle Single Frame Method End==============
+2024-05-14 00:36:30 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:36:30 INFO  Log:38 - Perform Nested Frame
+2024-05-14 00:36:30 INFO  Log:38 - unble to switch nested frame
+2024-05-14 00:36:40 ERROR Log:56 - An unexpected error occurred:no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Nested iFrames']/parent::div/iframe"}
+  (Session info: chrome=124.0.6367.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e117550861eae5778f190960d8f5132d, findElement {using=xpath, value=//h5[text()='Nested iFrames']/parent::div/iframe}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.158, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56459/devtoo..., se:cdpVersion: 124.0.6367.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e117550861eae5778f190960d8f5132d
+2024-05-14 00:36:40 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:41:51 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 00:41:51 INFO  Log:91 - Read Property File
+2024-05-14 00:41:51 INFO  Log:135 - Setting up the test with browser
+2024-05-14 00:41:55 INFO  Log:192 - Launch Chrome browser
+2024-05-14 00:42:02 INFO  Log:38 - Launch Frame Page
+2024-05-14 00:42:02 INFO  Log:38 - Verify browser
+2024-05-14 00:42:03 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:42:03 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-14 00:42:03 INFO  Log:38 - Switch Single Frame Sucessfully
+2024-05-14 00:42:03 INFO  Log:38 - Send input sucessfully
+2024-05-14 00:42:03 INFO  Log:29 - ==========Handle Single Frame Method End==============
+2024-05-14 00:42:03 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:42:03 INFO  Log:20 - ==========Perform Nested Frame Start===========
+2024-05-14 00:42:03 INFO  Log:38 - unble to switch nested first frame
+2024-05-14 00:42:14 ERROR Log:56 - An unexpected error occurred:no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Nested iFrames']/parent::div/iframe"}
+  (Session info: chrome=124.0.6367.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84c9b1c05e00403bc52e4e4900e891eb, findElement {using=xpath, value=//h5[text()='Nested iFrames']/parent::div/iframe}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.158, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56809/devtoo..., se:cdpVersion: 124.0.6367.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84c9b1c05e00403bc52e4e4900e891eb
+2024-05-14 00:42:14 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:42:37 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 00:42:37 INFO  Log:91 - Read Property File
+2024-05-14 00:42:37 INFO  Log:135 - Setting up the test with browser
+2024-05-14 00:42:40 INFO  Log:192 - Launch Chrome browser
+2024-05-14 00:43:16 INFO  Log:38 - Launch Frame Page
+2024-05-14 00:43:16 INFO  Log:38 - Verify browser
+2024-05-14 00:43:16 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:43:16 INFO  Log:20 - ==========Handle Single Frame Method Start===========
+2024-05-14 00:43:17 INFO  Log:38 - Switch Single Frame Sucessfully
+2024-05-14 00:43:17 INFO  Log:38 - Send input sucessfully
+2024-05-14 00:43:17 INFO  Log:29 - ==========Handle Single Frame Method End==============
+2024-05-14 00:43:17 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 00:43:17 INFO  Log:20 - ==========Perform Nested Frame Start===========
+2024-05-14 00:43:17 INFO  Log:38 - Click on Multiple Frame options
+2024-05-14 00:43:17 INFO  Log:38 - Switch to Single first Frame
+2024-05-14 00:43:17 INFO  Log:38 - Switch to nested frame
+2024-05-14 00:43:18 INFO  Log:38 - Send input sucessfully
+2024-05-14 00:43:18 INFO  Log:29 - ==========Perform Nested Frame End==============
+2024-05-14 00:43:18 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:09:44 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 01:09:44 INFO  Log:91 - Read Property File
+2024-05-14 01:09:44 INFO  Log:135 - Setting up the test with browser
+2024-05-14 01:09:49 INFO  Log:192 - Launch Chrome browser
+2024-05-14 01:09:56 INFO  Log:38 - Launch Window Page
+2024-05-14 01:09:56 INFO  Log:38 - Verify browser
+2024-05-14 01:09:56 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:09:56 INFO  Log:20 - ==========singelwindowHandle method Start===========
+2024-05-14 01:09:57 INFO  Log:38 - Click on Open New Tab Btn
+2024-05-14 01:09:57 INFO  Log:38 - Click on New window
+2024-05-14 01:09:57 INFO  Log:38 - Click on window btn
+2024-05-14 01:10:00 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:16:27 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 01:16:27 INFO  Log:91 - Read Property File
+2024-05-14 01:16:27 INFO  Log:135 - Setting up the test with browser
+2024-05-14 01:16:31 INFO  Log:192 - Launch Chrome browser
+2024-05-14 01:16:40 INFO  Log:38 - Launch Window Page
+2024-05-14 01:16:40 INFO  Log:38 - Verify browser
+2024-05-14 01:16:40 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:16:40 INFO  Log:20 - ==========singelwindowHandle method Start===========
+2024-05-14 01:16:41 INFO  Log:38 - Click on Open New Tab Btn
+2024-05-14 01:16:41 INFO  Log:38 - Click on New window
+2024-05-14 01:16:41 INFO  Log:38 - Click on window btn
+2024-05-14 01:16:43 INFO  Log:29 - ==========singelwindowHandle method End==============
+2024-05-14 01:16:44 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:16:44 INFO  Log:20 - ==========SeprateWindowHandle method Start===========
+2024-05-14 01:16:44 INFO  Log:38 - Click on New Seperate Window Btn
+2024-05-14 01:16:44 ERROR Log:56 - Click btn is not present or enable
+2024-05-14 01:16:44 INFO  Log:38 - create seprate window
+2024-05-14 01:16:44 INFO  Log:29 - ==========SeprateWindowHandle method End==============
+2024-05-14 01:16:44 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:17:30 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 01:17:30 INFO  Log:91 - Read Property File
+2024-05-14 01:17:30 INFO  Log:135 - Setting up the test with browser
+2024-05-14 01:17:34 INFO  Log:192 - Launch Chrome browser
+2024-05-14 01:17:42 INFO  Log:38 - Launch Window Page
+2024-05-14 01:17:42 INFO  Log:38 - Verify browser
+2024-05-14 01:17:43 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:17:43 INFO  Log:20 - ==========SeprateWindowHandle method Start===========
+2024-05-14 01:17:43 INFO  Log:38 - Click on New Seperate Window Btn
+2024-05-14 01:17:43 ERROR Log:56 - Click btn is not present or enable
+2024-05-14 01:17:43 INFO  Log:38 - create seprate window
+2024-05-14 01:17:43 INFO  Log:29 - ==========SeprateWindowHandle method End==============
+2024-05-14 01:17:43 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:24:58 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 01:24:58 INFO  Log:91 - Read Property File
+2024-05-14 01:24:58 INFO  Log:135 - Setting up the test with browser
+2024-05-14 01:25:01 INFO  Log:192 - Launch Chrome browser
+2024-05-14 01:25:28 INFO  Log:38 - Launch Window Page
+2024-05-14 01:25:28 INFO  Log:38 - Verify browser
+2024-05-14 01:25:28 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:25:28 INFO  Log:20 - ==========SeprateWindowHandle method Start===========
+2024-05-14 01:25:29 INFO  Log:38 - Click on New Seperate Window Btn
+2024-05-14 01:25:29 INFO  Log:38 - Click on Sprate window Click btn
+2024-05-14 01:25:29 INFO  Log:38 - create seprate window
+2024-05-14 01:25:32 INFO  Log:29 - ==========SeprateWindowHandle method End==============
+2024-05-14 01:25:33 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:33:05 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 01:33:05 INFO  Log:91 - Read Property File
+2024-05-14 01:33:05 INFO  Log:135 - Setting up the test with browser
+2024-05-14 01:33:09 INFO  Log:192 - Launch Chrome browser
+2024-05-14 01:33:16 INFO  Log:38 - Launch Window Page
+2024-05-14 01:33:16 INFO  Log:38 - Verify browser
+2024-05-14 01:33:16 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:33:16 INFO  Log:20 - ==========singelwindowHandle method Start===========
+2024-05-14 01:33:16 INFO  Log:38 - Click on Open New Tab Btn
+2024-05-14 01:33:17 INFO  Log:38 - Click on New window
+2024-05-14 01:33:17 INFO  Log:38 - Click on window btn
+2024-05-14 01:33:19 INFO  Log:29 - ==========singelwindowHandle method End==============
+2024-05-14 01:33:20 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:33:20 INFO  Log:20 - ==========SeprateWindowHandle method Start===========
+2024-05-14 01:33:20 INFO  Log:38 - Click on New Seperate Window Btn
+2024-05-14 01:33:20 INFO  Log:38 - Click on Sprate window Click btn
+2024-05-14 01:33:20 INFO  Log:38 - create seprate window
+2024-05-14 01:33:21 INFO  Log:29 - ==========SeprateWindowHandle method End==============
+2024-05-14 01:33:21 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:33:21 INFO  Log:20 - ==========MultipleWindowHandling Method Start===========
+2024-05-14 01:33:21 INFO  Log:38 - Click on open Seperate Multiple Windows Btn
+2024-05-14 01:33:21 INFO  Log:38 - Click on Multiple window Click btn
+2024-05-14 01:33:24 INFO  Log:29 - ==========MultipleWindowHandling method End==============
+2024-05-14 01:33:24 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:49:24 INFO  Log:20 - ==========
+
+Start Testing.... Start===========
+2024-05-14 01:49:24 INFO  Log:91 - Read Property File
+2024-05-14 01:49:24 INFO  Log:135 - Setting up the test with browser
+2024-05-14 01:49:31 INFO  Log:192 - Launch Chrome browser
+2024-05-14 01:49:57 INFO  Log:38 - Launch Home Page
+2024-05-14 01:49:57 INFO  Log:38 - Verify browser
+2024-05-14 01:49:57 INFO  Log:38 - Captured ScreenShot Sucessfully
+2024-05-14 01:49:57 INFO  Log:20 - ==========skip signIn method Start===========
+2024-05-14 01:50:03 INFO  Log:29 - ==========skip signIn method End==============
+2024-05-14 01:50:03 INFO  Log:38 - Captured ScreenShot Sucessfully
