@@ -27,20 +27,21 @@ public class ListenerClass implements ITestListener
 	 * Create a variable of SimpleDateFormat to hold the current date and time,
 	 * and a dateTime string to hold the current date and time returned by the SimpleDateFormat class.
 	 */
-	SimpleDateFormat simpleDateFormat;
+	SimpleDateFormat simpleDateFormat;		//it varibale for create object of that class 
 	String dateTime;
 	
 	
 	public void onStart(ITestContext context) 
 	{
+		//System.out.println("Call Extent Report class");
+		Loggerclass.info("Extent Report Initialization ");
 		Extentreport.Reports();// Call the Reports class to initialize the Extent report.
 	}
 	
 	
 	public void onTestStart(ITestResult start) 
 	{
-		
-		System.out.println("Start method: "+start.getName());	//print meassage on console to start method name
+		//System.out.println("Start method: "+start.getName());	//print meassage on console to start method name
 	}
 	
 	/**
@@ -82,7 +83,7 @@ public class ListenerClass implements ITestListener
 		try
 		{
 			//call screenshot utility class for captured screenshot and hold path captured screenshot
-			String screenShotDir=Screenshots.CaptureScreenShot(Baseclass.driver,"src\\test\\resources\\skip"+skipTest+"_"+dateTime);
+			String screenShotDir=Screenshots.CaptureScreenShot(Baseclass.driver,"src\\test\\resources\\skip\\"+skipTest+"_"+dateTime);
 			//create test report by using createTest method of extent report class and attched screen shot
 			Extentreport.report.createTest(skipTest).log(Status.SKIP,"Test Skip").addScreenCaptureFromPath(screenShotDir);
 		}
