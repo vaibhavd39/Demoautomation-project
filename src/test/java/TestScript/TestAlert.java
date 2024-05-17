@@ -2,9 +2,11 @@ package TestScript;
 
 import org.apache.commons.codec.binary.Base32;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
@@ -23,8 +25,14 @@ import UtilityClass.Waits;
 public class TestAlert extends Baseclass {
 
 	Alertpage a;
+	//WebDriver driver;
 	
-	@BeforeClass
+	/*public TestAlert(WebDriver driver) {
+		this.driver=driver;
+	}*/
+	
+	
+	@BeforeClass(groups= {"smoke","regression"})
 	public void navigateAlertPage() throws Customexception
 	{
 		try
@@ -50,9 +58,15 @@ public class TestAlert extends Baseclass {
 		}
 		
 	}
-	
-	@Test(priority=0)
-	private void verifySimpleAlert() throws InterruptedException, Customexception
+	@Test(groups= {"smoke","regression"})
+	public void verfiyAlert()
+	{
+		Loggerclass.StartTest("Verify Alert Page");
+		Assert.assertEquals(driver.getTitle(),"Alerts");
+		Loggerclass.EndTest("Verify Alert Page");
+	}
+	@Test(groups= {"regression"})
+	public void verifySimpleAlert() throws InterruptedException, Customexception
 	{
 		Loggerclass.StartTest("Simple Alert Method");
 		a=PageFactory.initElements(driver, Alertpage.class);
@@ -61,7 +75,7 @@ public class TestAlert extends Baseclass {
 	}
 	
 	
-	@Test(priority=1)
+	@Test(groups= {"smoke","regression"})
 	private void verifyCancelConfirmationAlert() throws InterruptedException, Customexception
 	{
 		Loggerclass.StartTest("verify Cancel Confirmation Alert Method");
@@ -71,8 +85,8 @@ public class TestAlert extends Baseclass {
 	}
 	
 	
-	@Test(priority=2)
-	private void verifyPromptAlert() throws Customexception, InterruptedException
+	@Test(groups= {"regression"})
+	public void verifyPromptAlert() throws Customexception, InterruptedException
 	{
 		Loggerclass.StartTest("Prompt Alert Method");
 		a=PageFactory.initElements(driver,Alertpage.class);
@@ -80,8 +94,8 @@ public class TestAlert extends Baseclass {
 		Loggerclass.EndTest("Prompt Alert Method ");
 	}
 	
-	@Test(priority=3)
-	private void verifyAccpectConfirmationAlert() throws Customexception
+	@Test(groups= {"regression"})
+	public void verifyAccpectConfirmationAlert() throws Customexception
 	{
 		Loggerclass.StartTest("Accept Confirmation Alert Method");
 		a=PageFactory.initElements(driver, Alertpage.class);
@@ -92,9 +106,9 @@ public class TestAlert extends Baseclass {
 	/**
 	 * quit page after class
 	 */
-	@AfterClass
+	@AfterClass(groups= {"smoke","regression"})
 	private void tearDown()
 	{
-		teardown();
+		CloseTab();
 	}
 }
