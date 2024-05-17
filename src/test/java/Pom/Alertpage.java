@@ -59,6 +59,7 @@ public class Alertpage
 	//create method of intialize webelement
 	public void simpleAlert() throws InterruptedException, Customexception
 	{
+		//Waits.applyVisibilityOf(driver,simpleAlert,10);
 		try
 		{
 			if(ActionsMethod.isDisplay(simpleAlert) 

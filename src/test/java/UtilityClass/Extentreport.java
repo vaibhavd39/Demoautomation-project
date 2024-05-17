@@ -21,8 +21,7 @@ public class Extentreport {
 		report=new ExtentReports(); //create instanse of extentreport class object 
 		
 		//create object Extentspark report and pass location where to stored file 
-		spark=new ExtentSparkReporter("D:\\Vaibhav Study\\Software Testing\\"
-				+ "Automation Testing\\eclipse\\DemoProject\\src\\test\\resources\\reports\\report.html");
+		spark=new ExtentSparkReporter("src\\test\\resources\\reports\\report.html");
 		
 		//configure report 
 		spark.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");

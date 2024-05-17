@@ -17,7 +17,7 @@ public class Screenshots
 		TakesScreenshot t=(TakesScreenshot) driver;
 		//System.out.println(path);
 		File src=t.getScreenshotAs(OutputType.FILE);
-		File desc=new File(path+".jpeg");
+		File desc=new File(path+".png");
 		try
 		{
 			FileUtils.copyFile(src, desc);
@@ -27,7 +27,7 @@ public class Screenshots
 		}
 		Loggerclass.info("Captured ScreenShot Sucessfully");
 		//System.out.println(desc.getAbsolutePath());
-		return desc.getAbsolutePath();
+		return desc.getAbsolutePath();		//it return absolute path of captured screenshot
 	}
 	
 	public static String ScreenShot(WebDriver driver)

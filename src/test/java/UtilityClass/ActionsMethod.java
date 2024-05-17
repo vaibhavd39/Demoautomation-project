@@ -46,6 +46,11 @@ public class ActionsMethod
 		return element.isEnabled();
 	}
 	
+	public static void sendKeys(WebElement element,String input)
+	{
+		element.sendKeys(input);
+	}
+	
 	public static boolean isSelect(WebElement element)
 	{
 		return element.isSelected();
@@ -118,6 +123,7 @@ public class ActionsMethod
 		if(!s.isMultiple())
 		{
 			s.selectByValue(value);
+			
 		}
 	}
 	public static List<WebElement> SelectClass(WebElement element)

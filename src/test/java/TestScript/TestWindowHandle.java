@@ -14,16 +14,21 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Pom.WindowPage;
 import Superclass.Baseclass;
 import UtilityClass.ActionsMethod;
 import UtilityClass.Customexception;
+import UtilityClass.ListenerClass;
 import UtilityClass.Loggerclass;
 import UtilityClass.WindowHandeling;
 
+@Listeners(ListenerClass.class)
 public class TestWindowHandle extends Baseclass
 {
 
@@ -33,7 +38,7 @@ public class TestWindowHandle extends Baseclass
 	 * Navigate Window page method
 	 * @throws Customexception
 	 */
-	@BeforeClass
+	@BeforeClass(groups= {"smoke","regression"})
 	void navigateTOWindowPage() throws Customexception
 	{
 		try
@@ -60,20 +65,27 @@ public class TestWindowHandle extends Baseclass
 		}
 	}
 	
+	@Test(alwaysRun=true,groups= {"smoke","regression"})
+	public void verifyWindowPage()
+	{	
+		Loggerclass.StartTest("Verify Window page ");
+		Assert.assertEquals(driver.getTitle(), "Frames & windows");
+		Loggerclass.EndTest("Verify Window Page");
+	}
 	
 	/**
 	 * single window handling
 	 * @throws InterruptedException
 	 * @throws Customexception
 	 */
-	@Test(priority=0)
+	@Test(groups= {"smoke",})
 	void verifySingelwindowHandle() throws InterruptedException, Customexception
 	{
 		Loggerclass.StartTest("singelwindowHandle method");
 		w=PageFactory.initElements(driver, WindowPage.class);
 		w.openNewTab();
 		w.clickBtn();
-		Loggerclass.info("Click on window btn");
+		//Loggerclass.info("Click on window btn");
 		
 		//handle window by using window handel code that is retured Utility package
 		boolean status=WindowHandeling.handleWindow(driver, "https://www.selenium.dev/", "Selenium");
@@ -90,14 +102,14 @@ public class TestWindowHandle extends Baseclass
 	 * Verify Seprate window handle 
 	 * @throws Customexception 
 	 */
-	 @Test(priority=1)
+	 @Test(groups= {"regression"})
 	void verifySeprateWindowHandle() throws Customexception
 	{
 		Loggerclass.StartTest("SeprateWindowHandle method");
 		w=PageFactory.initElements(driver,WindowPage.class);
 		w.clickOpenNewSeperateWindowBtn();
 		w.clickOnSpreateWindowClickBtn();
-		Loggerclass.info("create seprate window");
+		//Loggerclass.info("create seprate window");
 		
 		//handle window by using window handel code that is retured Utility package
 		boolean status=WindowHandeling.handleWindow(driver, "https://www.selenium.dev/", "Selenium");
@@ -117,7 +129,7 @@ public class TestWindowHandle extends Baseclass
 	 * @throws Customexception 
 	  */
 	 
-	 @Test(priority=3)
+	 @Test(priority=3,groups= {"regression"})
 	 void verifyMultipleWindowHandling() throws Customexception
 	 {
 		 Loggerclass.StartTest("MultipleWindowHandling Method");
@@ -134,5 +146,11 @@ public class TestWindowHandle extends Baseclass
 		}
 		WindowHandeling.switchTOParentWindow(driver);//navigate parent page
 		Loggerclass.EndTest("MultipleWindowHandling method");
+	 }
+	 
+	 @AfterClass(groups= {"smoke","regression"})
+	 public void tearDown()
+	 {
+		 teardown();
 	 }
 }

@@ -49,6 +49,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 
 import UtilityClass.Customexception;
+import UtilityClass.Extentreport;
 import UtilityClass.ListenerClass;
 import UtilityClass.Loggerclass;
 import UtilityClass.ReadWriteFile;
@@ -76,19 +77,22 @@ public class Baseclass
 	/**
 	 * Read And Write Property file and method execute at time of project execution
 	 */
-	@BeforeSuite
+	@BeforeSuite(groups= {"smoke","regression"})
 	public static void ReadPropertyFile()
 	{
-		FileInputStream fis=ReadWriteFile.ReadFile("src\\test\\resources\\PropertyFile\\Property.properties");
 		
+		FileInputStream fis=ReadWriteFile.ReadFile("src\\test\\resources\\PropertyFile\\Property.properties");
 		//PropertyConfigurator.configure("src\\test\\resources\\PropertyFile\\log.properties");
-		DOMConfigurator.configure("log4j2.xml");
-		Loggerclass.StartTest("\n\nStart Testing....");
 		try
 		{	
+			
+			DOMConfigurator.configure("log4j2.xml");
+			Loggerclass.StartTest("Testing");
 			p=new Properties();
 			p.load(fis);
 			Loggerclass.log.info("Read Property File");
+			
+			
 		}
 		catch (IOException e) 
 		{
@@ -121,18 +125,18 @@ public class Baseclass
 	 * TestNG will pass in a specified default value, or null if none is specified.
 	 */
 	
-	@Parameters("browserNameTestNgXml")
-	@BeforeClass
+	@Parameters("browser")
+	@BeforeClass(groups= {"smoke","regression"})
 	public static void setUp(@Optional String browserNameTestNgXml) throws Customexception
 	{
 		String browserName=p.getProperty("browser");//get browser name by using property file method
-		System.out.println("browser name: "+browserName);
+		//System.out.println("browser name: "+browserName);
 		if(browserNameTestNgXml !=null && !browserNameTestNgXml.isEmpty()) //check browser name came by using testng.xml file then override value.
 		{
 			browserName=browserNameTestNgXml; //overrride value on browsername
-			System.out.println("Overright browser: "+browserName);
+			//System.out.println("Overright browser: "+browserName);
 		}
-		Loggerclass.log.info("Setting up the test with browser");
+		//Loggerclass.log.info("Setting up the test with browser");
 		launchBrowser(browserName);// call launchbrowser method and pass parameter to launch browser
 	}
 	
@@ -143,7 +147,7 @@ public class Baseclass
 
 	public static WebDriver launchBrowser(String browserName) throws Customexception
 	{
-		System.out.println(browserName);
+		//System.out.println(browserName);
 		try
 		{
 			if(browserName.contains("chrome"))
@@ -280,7 +284,7 @@ public class Baseclass
 	/**
 	 * method for verify browser if correct
 	 */
-	@Test(enabled=true)
+	//@Test(groups={"smoke", "regression"})
 	private void VerifyBrowser()
 	{
 		//type case driver to remotewebdriver and using methods of remotewebdriver to get browser name
@@ -295,7 +299,7 @@ public class Baseclass
 	 */
 	public void CloseTab()
 	{
-		Loggerclass.info("Close Tab");
+		Loggerclass.EndTest("current tab");
 		driver.close();
 	}
 	
@@ -305,7 +309,7 @@ public class Baseclass
 	 */
 	public void teardown()
 	{
-		Loggerclass.StartTest("End Testing....");
+		Loggerclass.EndTest("Testing");
 		driver.quit();
 	}
 }

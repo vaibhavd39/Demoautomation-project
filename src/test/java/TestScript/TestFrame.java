@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
@@ -16,6 +17,7 @@ import UtilityClass.Customexception;
 import UtilityClass.ListenerClass;
 import UtilityClass.Loggerclass;
 
+
 @Listeners(ListenerClass.class)
 public class TestFrame extends Baseclass
 {
@@ -23,7 +25,7 @@ public class TestFrame extends Baseclass
 	 * Method is used to open frame page and handle exceptions
 	 * @throws Customexception
 	 */
-	@BeforeClass
+	@BeforeClass(groups= {"smoke","regression"})
 	void navigateFramePage() throws Customexception
 	{
 		try
@@ -54,21 +56,28 @@ public class TestFrame extends Baseclass
 		}
 	}
 	
+	@Test(groups= {"smoke,regrssion"})
+	public void verifyFramePage()
+	{
+		Loggerclass.StartTest("verify frame method ");
+		 Assert.assertEquals(driver.getTitle(), "Frames"); 
+		 Loggerclass.EndTest("verify frame method ");
+	}
 	
 	/**
 	 * Method is used to verify Single frame handling
 	 * @throws InterruptedException
 	 * @throws Customexception
 	 */
-	@Test(priority=1)
+	@Test(groups= {"smoke"})
 	void performSingleFrameHandling() throws InterruptedException, Customexception
 	{
-		Loggerclass.StartTest("Handle Single Frame Method");
+		Loggerclass.StartTest("performSingleFrameHandling Method");
 		Framepage fP=PageFactory.initElements(driver, Framepage.class);
 		fP.firstFrame();
 		fP.passText("Vaibhav");
 		driver.switchTo().defaultContent();//switch to parent frame 
-		Loggerclass.EndTest("Handle Single Frame Method");
+		Loggerclass.EndTest("performSingleFrameHandling Method");
 	}
 	
 	
@@ -77,22 +86,22 @@ public class TestFrame extends Baseclass
 	 * @throws InterruptedException
 	 * @throws Customexception 
 	 */
-	@Test(priority=2)
+	@Test(groups= {"regression"})
 	void performNestedFrame() throws InterruptedException, Customexception
 	{
-		Loggerclass.StartTest("Perform Nested Frame");
+		Loggerclass.StartTest("Perform Nested Frame Method ");
 		Framepage fP=PageFactory.initElements(driver,Framepage.class);
 		fP.clickOnNestedFrameBtn();
 		fP.switchToNestedFirstFrame();
 		fP.switchToNestedSecondFrame();
 		fP.passText("Deshmukh");
 		driver.switchTo().defaultContent();
-		Loggerclass.EndTest("Perform Nested Frame");
+		Loggerclass.EndTest("Perform Nested Frame Method ");
 	}
 	
-	@AfterClass
+	@AfterClass(groups= {"smoke","regression"})
 	void tearDown()
 	{
-		teardown();
+		CloseTab();
 	}
 }
